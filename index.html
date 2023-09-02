@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&family=Roboto+Slab:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>ClimaVerga</title>
+</head>
+<body>
+
+<div class="clima-headers">
+    <h2>ClimaVerga</h2>
+    <h3>Realtime Weather Forecasts On-Demand</h3>
+</div>
+
+
+<div class="clima-form-container">
+    <form type="text" class="clima-form">
+        <input type="text" placeholder="Enter City Name" class="clima-input">
+        <button type="submit" class="clima-btn">Search</button>
+    </form>
+</div>
+
+
+<p id="error-message" class="error"></p>
+
+
+<div class="card-wrapper">
+    <div class="clima-card">
+        <div class="clima-pic-container">
+            <img src="" class="clima-card-pic">
+        </div>
+        <div class="clima-card-details">
+            <h3 class="clima-card-city"></h3>
+            <p>
+                <span class="label">Temperature:</span>
+                <span class="temperature"></span>
+            </p>
+            <p>
+                <span class="label">Condition:</span>
+                <span class="weather-condition"></span>
+            </p>
+            <p>
+                <span class="label">Humidity:</span>
+                <span class="humidity"></span>
+            </p>
+            <p>
+                <span class="label">Wind Speed:</span>
+                <span class="wind-speed"></span>
+            </p>
+            <!-- other details here -->
+        </div>
+    </div>
+</div>
+
+<div class="toggle-container">
+    <button id="toggleTemp">Switch to Celsius</button>
+</div>
+
+<footer class="clima-footer"><p>&copy; 2023 ClimaVerga. All rights reserved.</p></footer>
+
+<script src="./main.js"></script>
+<script src="./config.js"></script>
+</body>
+</html>

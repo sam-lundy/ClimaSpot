@@ -1,0 +1,164 @@
+/* Resetting some browser defaults */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Handjet', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9f7fa;
+    color: #333;
+    padding: 20px;
+    background: linear-gradient(to bottom, #60a4bb, #FFFFFF);
+}
+
+.hidden {
+    display: none;
+}
+
+.clima-form-container {
+    max-width: 600px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #247793, #FFFFFF);
+}
+
+.clima-headers {
+    background-color: #247793;
+    color: #ffffff;
+    padding: 20px 40px;
+    margin-bottom: 100px;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+.clima-headers h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.clima-form {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clima-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.clima-btn {
+    padding: 10px 15px;
+    background-color: #cad0d6;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clima-btn:hover {
+    background-color: #a5bfdb;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.clima-card {
+    padding: 20px;
+    display: flex;
+    text-align: left;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #f3f3f3;
+    width: 40%;
+}
+
+.clima-card-city {
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.clima-pic-container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.clima-card h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.clima-card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+
+}
+
+.clima-card-details p {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 16px;
+    margin: 15px;
+    padding-right: 20px;
+
+}
+
+.clima-card-details .label {
+    font-weight: 700;
+}
+
+.weather-condition p {
+    flex-basis: 70%;
+    text-align: left;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#error-message {
+    color: #FF4136;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+.clima-footer {
+    padding: 20px;
+    background-color: #247793;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
